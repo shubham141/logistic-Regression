@@ -18,9 +18,9 @@ Since probability must always be positive, we’ll put the linear equation in ex
 
 To make the probability less than 1, we must divide p by a number greater than p. This can simply be done by:
 
-                  p  =  exp(βo + β(Age)) / exp(βo + β(Age)) + 1   =   e^(βo + β(Age)) / e^(βo + β(Age)) + 1    ----- (c)
+                  p  =  exp(βo + β(Age)) / exp(βo + β(Age)) + 1   =   e^(βo + β(Age)) / e^(βo + β(Age)) + 1   
 
-Using (a), (b) and (c), we can redefine the probability as:
+
 
                   p = e^y/ 1 + e^y           --- (d)
 
